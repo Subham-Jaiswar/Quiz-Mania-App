@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background-color: #001e4d;
+}
+
+.app {
+  width: 90%;
+  max-width: 600px;
+  /* height: 56.9vh; */
+  margin: 100px auto 0;
+  border-radius: 15px;
+  background-color: white;
+  padding: 30px;
+}
+h1 {
+  margin: 20px;
+  height: 30px;
+  font-size: 29px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 15px;
+  border-bottom: 2px solid black;
+  padding-bottom: 40px;
+}
+
+.innerPart h2 {
+  color: rgb(6, 6, 100);
+  font-size: 25px;
+  font: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.btn {
+  font-size: 18px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: black;
+  border: 2px solid black;
+  width: 100%;
+  margin: 10px 0;
+  position: relative;
+  border-radius: 5px;
+  padding: 10px;
+  transition: 0.2s;
+  cursor: pointer;
+  text-align: left;
+}
+
+.btn:hover:not([disabled]) {
+  background-color: black;
+  color: white;
+}
+.btn:disabled {
+  cursor: no-drop;
+}
+#next-btn {
+  background: #001e4d;
+  color: #fff;
+  font-weight: 500;
+  width: 150px;
+  border: 0;
+  padding: 10px;
+  margin: 20px auto 0;
+  border-radius: 4px;
+  cursor: pointer;
+  display: none;
+}
+.correct {
+  background-color: rgb(57, 243, 57);
+}
+.incorrect {
+  background-color: rgb(240, 53, 53);
+}
